@@ -20,6 +20,18 @@
 		9A2C0144193B70AE00F72561 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A2C0126193B70AE00F72561 /* UIKit.framework */; };
 		9A2C014C193B70AE00F72561 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A2C014A193B70AE00F72561 /* InfoPlist.strings */; };
 		9A2C014E193B70AE00F72561 /* WorkAngelTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C014D193B70AE00F72561 /* WorkAngelTestTests.m */; };
+		9A2C0159193B72BA00F72561 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C0157193B72BA00F72561 /* Model.xcdatamodeld */; };
+		9A2C0174193B7B1700F72561 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A2C0173193B7B1700F72561 /* CoreData.framework */; };
+		9A2C017B193B803F00F72561 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 9A2C017A193B803F00F72561 /* data.json */; };
+		9A2C017E193B81ED00F72561 /* BoardingCard+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C017D193B81ED00F72561 /* BoardingCard+Create.m */; };
+		9A2C0181193B847700F72561 /* Location+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C0180193B847700F72561 /* Location+Create.m */; };
+		9A2C018D193B876500F72561 /* Journey+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C018C193B876500F72561 /* Journey+Create.m */; };
+		9A2C0190193B8A5300F72561 /* Journey+Sorting.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C018F193B8A5300F72561 /* Journey+Sorting.m */; };
+		9A2C0193193B8B8A00F72561 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C0192193B8B8A00F72561 /* Location.m */; };
+		9A2C0196193B8B8B00F72561 /* BoardingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C0195193B8B8B00F72561 /* BoardingCard.m */; };
+		9A2C0199193B8B8B00F72561 /* Journey.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C0198193B8B8B00F72561 /* Journey.m */; };
+		9A2C019C193B923700F72561 /* BoardingCard+Text.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C019B193B923700F72561 /* BoardingCard+Text.m */; };
+		9A2C019F193B984400F72561 /* Journey+Text.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C019E193B984400F72561 /* Journey+Text.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +62,27 @@
 		9A2C0149193B70AE00F72561 /* WorkAngelTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WorkAngelTestTests-Info.plist"; sourceTree = "<group>"; };
 		9A2C014B193B70AE00F72561 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9A2C014D193B70AE00F72561 /* WorkAngelTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorkAngelTestTests.m; sourceTree = "<group>"; };
+		9A2C0158193B72BA00F72561 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		9A2C0173193B7B1700F72561 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9A2C017A193B803F00F72561 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		9A2C017C193B81ED00F72561 /* BoardingCard+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BoardingCard+Create.h"; sourceTree = "<group>"; };
+		9A2C017D193B81ED00F72561 /* BoardingCard+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BoardingCard+Create.m"; sourceTree = "<group>"; };
+		9A2C017F193B847700F72561 /* Location+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Location+Create.h"; sourceTree = "<group>"; };
+		9A2C0180193B847700F72561 /* Location+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Location+Create.m"; sourceTree = "<group>"; };
+		9A2C018B193B876500F72561 /* Journey+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Journey+Create.h"; sourceTree = "<group>"; };
+		9A2C018C193B876500F72561 /* Journey+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Journey+Create.m"; sourceTree = "<group>"; };
+		9A2C018E193B8A5300F72561 /* Journey+Sorting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Journey+Sorting.h"; sourceTree = "<group>"; };
+		9A2C018F193B8A5300F72561 /* Journey+Sorting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Journey+Sorting.m"; sourceTree = "<group>"; };
+		9A2C0191193B8B8A00F72561 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		9A2C0192193B8B8A00F72561 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		9A2C0194193B8B8B00F72561 /* BoardingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardingCard.h; sourceTree = "<group>"; };
+		9A2C0195193B8B8B00F72561 /* BoardingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardingCard.m; sourceTree = "<group>"; };
+		9A2C0197193B8B8B00F72561 /* Journey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Journey.h; sourceTree = "<group>"; };
+		9A2C0198193B8B8B00F72561 /* Journey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Journey.m; sourceTree = "<group>"; };
+		9A2C019A193B923700F72561 /* BoardingCard+Text.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BoardingCard+Text.h"; sourceTree = "<group>"; };
+		9A2C019B193B923700F72561 /* BoardingCard+Text.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BoardingCard+Text.m"; sourceTree = "<group>"; };
+		9A2C019D193B984400F72561 /* Journey+Text.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Journey+Text.h"; sourceTree = "<group>"; };
+		9A2C019E193B984400F72561 /* Journey+Text.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Journey+Text.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A2C0174193B7B1700F72561 /* CoreData.framework in Frameworks */,
 				9A2C0125193B70AE00F72561 /* CoreGraphics.framework in Frameworks */,
 				9A2C0127193B70AE00F72561 /* UIKit.framework in Frameworks */,
 				9A2C0123193B70AE00F72561 /* Foundation.framework in Frameworks */,
@@ -98,6 +132,7 @@
 		9A2C0121193B70AE00F72561 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9A2C0173193B7B1700F72561 /* CoreData.framework */,
 				9A2C0122193B70AE00F72561 /* Foundation.framework */,
 				9A2C0124193B70AE00F72561 /* CoreGraphics.framework */,
 				9A2C0126193B70AE00F72561 /* UIKit.framework */,
@@ -109,6 +144,7 @@
 		9A2C0128193B70AE00F72561 /* WorkAngelTest */ = {
 			isa = PBXGroup;
 			children = (
+				9A2C0160193B784300F72561 /* Model */,
 				9A2C0131193B70AE00F72561 /* WATAppDelegate.h */,
 				9A2C0132193B70AE00F72561 /* WATAppDelegate.m */,
 				9A2C0134193B70AE00F72561 /* Main.storyboard */,
@@ -145,6 +181,33 @@
 				9A2C014A193B70AE00F72561 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A2C0160193B784300F72561 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9A2C017A193B803F00F72561 /* data.json */,
+				9A2C017C193B81ED00F72561 /* BoardingCard+Create.h */,
+				9A2C017D193B81ED00F72561 /* BoardingCard+Create.m */,
+				9A2C019A193B923700F72561 /* BoardingCard+Text.h */,
+				9A2C019B193B923700F72561 /* BoardingCard+Text.m */,
+				9A2C0157193B72BA00F72561 /* Model.xcdatamodeld */,
+				9A2C0197193B8B8B00F72561 /* Journey.h */,
+				9A2C0198193B8B8B00F72561 /* Journey.m */,
+				9A2C0194193B8B8B00F72561 /* BoardingCard.h */,
+				9A2C0195193B8B8B00F72561 /* BoardingCard.m */,
+				9A2C0191193B8B8A00F72561 /* Location.h */,
+				9A2C0192193B8B8A00F72561 /* Location.m */,
+				9A2C018B193B876500F72561 /* Journey+Create.h */,
+				9A2C018C193B876500F72561 /* Journey+Create.m */,
+				9A2C018E193B8A5300F72561 /* Journey+Sorting.h */,
+				9A2C018F193B8A5300F72561 /* Journey+Sorting.m */,
+				9A2C019D193B984400F72561 /* Journey+Text.h */,
+				9A2C019E193B984400F72561 /* Journey+Text.m */,
+				9A2C017F193B847700F72561 /* Location+Create.h */,
+				9A2C0180193B847700F72561 /* Location+Create.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +290,7 @@
 				9A2C013B193B70AE00F72561 /* Images.xcassets in Resources */,
 				9A2C012D193B70AE00F72561 /* InfoPlist.strings in Resources */,
 				9A2C0136193B70AE00F72561 /* Main.storyboard in Resources */,
+				9A2C017B193B803F00F72561 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,7 +310,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A2C012F193B70AE00F72561 /* main.m in Sources */,
+				9A2C019F193B984400F72561 /* Journey+Text.m in Sources */,
+				9A2C017E193B81ED00F72561 /* BoardingCard+Create.m in Sources */,
+				9A2C0199193B8B8B00F72561 /* Journey.m in Sources */,
+				9A2C0196193B8B8B00F72561 /* BoardingCard.m in Sources */,
+				9A2C019C193B923700F72561 /* BoardingCard+Text.m in Sources */,
+				9A2C0190193B8A5300F72561 /* Journey+Sorting.m in Sources */,
 				9A2C0133193B70AE00F72561 /* WATAppDelegate.m in Sources */,
+				9A2C018D193B876500F72561 /* Journey+Create.m in Sources */,
+				9A2C0193193B8B8A00F72561 /* Location.m in Sources */,
+				9A2C0159193B72BA00F72561 /* Model.xcdatamodeld in Sources */,
+				9A2C0181193B847700F72561 /* Location+Create.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +535,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9A2C0157193B72BA00F72561 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9A2C0158193B72BA00F72561 /* Model.xcdatamodel */,
+			);
+			currentVersion = 9A2C0158193B72BA00F72561 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 9A2C0117193B70AE00F72561 /* Project object */;
 }
