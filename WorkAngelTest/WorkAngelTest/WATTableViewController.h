@@ -1,5 +1,5 @@
 //
-//  WATViewController.h
+//  WATTableViewController.h
 //  WorkAngelTest
 //
 //  Created by Tiago Silva on 01/06/2014.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface WATViewController : UIViewController
+@interface WATTableViewController : UITableViewController
+
+@property (strong, nonatomic) NSArray *boardingCards;
 
 @end
