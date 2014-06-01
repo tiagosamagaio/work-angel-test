@@ -8,11 +8,13 @@
 
 #import "Location.h"
 #import "BoardingCard.h"
+#import "Journey.h"
 
 
 @implementation Location
 
 @dynamic name;
 @dynamic boardingCards;
+@dynamic journey;
 
 @end

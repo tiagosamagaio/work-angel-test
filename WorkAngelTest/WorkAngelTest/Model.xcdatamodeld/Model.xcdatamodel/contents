@@ -12,14 +12,16 @@
     <entity name="Journey" representedClassName="Journey" syncable="YES">
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="boardingCards" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="BoardingCard" inverseName="journey" inverseEntity="BoardingCard" syncable="YES"/>
+        <relationship name="locations" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Location" inverseName="journey" inverseEntity="Location" syncable="YES"/>
     </entity>
     <entity name="Location" representedClassName="Location" syncable="YES">
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="boardingCards" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="BoardingCard" inverseName="locations" inverseEntity="BoardingCard" syncable="YES"/>
+        <relationship name="journey" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Journey" inverseName="locations" inverseEntity="Journey" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Location" positionX="-63" positionY="-18" width="128" height="73"/>
-        <element name="BoardingCard" positionX="126" positionY="-36" width="128" height="148"/>
-        <element name="Journey" positionX="315" positionY="-6" width="128" height="73"/>
+        <element name="Location" positionX="-5481" positionY="-5670" width="128" height="88"/>
+        <element name="BoardingCard" positionX="-5292" positionY="-5688" width="128" height="148"/>
+        <element name="Journey" positionX="-5418" positionY="-5842" width="128" height="88"/>
     </elements>
 </model>

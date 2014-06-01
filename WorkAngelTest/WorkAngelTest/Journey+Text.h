@@ -1,5 +1,5 @@
 //
-//  Journey.m
+//  Journey+Text.h
 //  WorkAngelTest
 //
 //  Created by Tiago Silva on 01/06/2014.
@@ -7,14 +7,9 @@
 //
 
 #import "Journey.h"
-#import "BoardingCard.h"
-#import "Location.h"
 
+@interface Journey (Text)
 
-@implementation Journey
-
-@dynamic name;
-@dynamic boardingCards;
-@dynamic locations;
++ (NSString *)instructionsForPlan:(NSDictionary *)plan;
 
 @end

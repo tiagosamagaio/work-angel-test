@@ -9,12 +9,13 @@
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
 
-@class BoardingCard;
+@class BoardingCard, Journey;
 
 @interface Location : NSManagedObject
 
 @property (nonatomic, retain) NSString * name;
 @property (nonatomic, retain) NSSet *boardingCards;
+@property (nonatomic, retain) Journey *journey;
 @end
 
 @interface Location (CoreDataGeneratedAccessors)

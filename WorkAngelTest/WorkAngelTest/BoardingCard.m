@@ -7,6 +7,7 @@
 //
 
 #import "BoardingCard.h"
+#import "Journey.h"
 #import "Location.h"
 
 

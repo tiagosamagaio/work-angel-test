@@ -1,5 +1,5 @@
 //
-//  Journey.m
+//  Journey+Sorting.h
 //  WorkAngelTest
 //
 //  Created by Tiago Silva on 01/06/2014.
@@ -7,14 +7,9 @@
 //
 
 #import "Journey.h"
-#import "BoardingCard.h"
-#import "Location.h"
 
+@interface Journey (Sorting)
 
-@implementation Journey
-
-@dynamic name;
-@dynamic boardingCards;
-@dynamic locations;
+- (NSDictionary *)plan;
 
 @end
