@@ -11,5 +11,6 @@
 @interface Journey (Sorting)
 
 - (NSDictionary *)plan;
+- (NSArray *)boardingCardsArray;
 
 @end

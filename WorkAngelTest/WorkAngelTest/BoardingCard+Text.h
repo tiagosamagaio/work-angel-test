@@ -11,5 +11,7 @@
 @interface BoardingCard (Text)
 
 - (NSString *)instructionWithOrigin:(Location *)origin;
+- (NSString *)locationsString;
+- (NSString *)locationsStringWithOrigin:(Location *)origin;
 
 @end

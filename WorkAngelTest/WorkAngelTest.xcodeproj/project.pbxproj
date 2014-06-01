@@ -32,6 +32,10 @@
 		9A2C0199193B8B8B00F72561 /* Journey.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C0198193B8B8B00F72561 /* Journey.m */; };
 		9A2C019C193B923700F72561 /* BoardingCard+Text.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C019B193B923700F72561 /* BoardingCard+Text.m */; };
 		9A2C019F193B984400F72561 /* Journey+Text.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C019E193B984400F72561 /* Journey+Text.m */; };
+		9A2C01A2193BA2A100F72561 /* WATInstructionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C01A1193BA2A100F72561 /* WATInstructionsViewController.m */; };
+		9A2C01A6193BA2D200F72561 /* WATTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C01A5193BA2D200F72561 /* WATTableViewController.m */; };
+		9A2C01A9193BA2FB00F72561 /* WATBoardingCardsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C01A8193BA2FB00F72561 /* WATBoardingCardsViewController.m */; };
+		9A2C01AC193BA31D00F72561 /* WATPlanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C01AB193BA31D00F72561 /* WATPlanViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +87,14 @@
 		9A2C019B193B923700F72561 /* BoardingCard+Text.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BoardingCard+Text.m"; sourceTree = "<group>"; };
 		9A2C019D193B984400F72561 /* Journey+Text.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Journey+Text.h"; sourceTree = "<group>"; };
 		9A2C019E193B984400F72561 /* Journey+Text.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Journey+Text.m"; sourceTree = "<group>"; };
+		9A2C01A0193BA2A100F72561 /* WATInstructionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WATInstructionsViewController.h; sourceTree = "<group>"; };
+		9A2C01A1193BA2A100F72561 /* WATInstructionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WATInstructionsViewController.m; sourceTree = "<group>"; };
+		9A2C01A4193BA2D200F72561 /* WATTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WATTableViewController.h; sourceTree = "<group>"; };
+		9A2C01A5193BA2D200F72561 /* WATTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WATTableViewController.m; sourceTree = "<group>"; };
+		9A2C01A7193BA2FB00F72561 /* WATBoardingCardsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WATBoardingCardsViewController.h; sourceTree = "<group>"; };
+		9A2C01A8193BA2FB00F72561 /* WATBoardingCardsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WATBoardingCardsViewController.m; sourceTree = "<group>"; };
+		9A2C01AA193BA31D00F72561 /* WATPlanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WATPlanViewController.h; sourceTree = "<group>"; };
+		9A2C01AB193BA31D00F72561 /* WATPlanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WATPlanViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +159,7 @@
 				9A2C0160193B784300F72561 /* Model */,
 				9A2C0131193B70AE00F72561 /* WATAppDelegate.h */,
 				9A2C0132193B70AE00F72561 /* WATAppDelegate.m */,
-				9A2C0134193B70AE00F72561 /* Main.storyboard */,
+				9A2C01A3193BA2A800F72561 /* UI */,
 				9A2C013A193B70AE00F72561 /* Images.xcassets */,
 				9A2C0129193B70AE00F72561 /* Supporting Files */,
 			);
@@ -208,6 +220,22 @@
 				9A2C0180193B847700F72561 /* Location+Create.m */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		9A2C01A3193BA2A800F72561 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				9A2C01A4193BA2D200F72561 /* WATTableViewController.h */,
+				9A2C01A5193BA2D200F72561 /* WATTableViewController.m */,
+				9A2C01A7193BA2FB00F72561 /* WATBoardingCardsViewController.h */,
+				9A2C01A8193BA2FB00F72561 /* WATBoardingCardsViewController.m */,
+				9A2C01AA193BA31D00F72561 /* WATPlanViewController.h */,
+				9A2C01AB193BA31D00F72561 /* WATPlanViewController.m */,
+				9A2C0134193B70AE00F72561 /* Main.storyboard */,
+				9A2C01A0193BA2A100F72561 /* WATInstructionsViewController.h */,
+				9A2C01A1193BA2A100F72561 /* WATInstructionsViewController.m */,
+			);
+			name = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,9 +339,13 @@
 			files = (
 				9A2C012F193B70AE00F72561 /* main.m in Sources */,
 				9A2C019F193B984400F72561 /* Journey+Text.m in Sources */,
+				9A2C01A6193BA2D200F72561 /* WATTableViewController.m in Sources */,
 				9A2C017E193B81ED00F72561 /* BoardingCard+Create.m in Sources */,
 				9A2C0199193B8B8B00F72561 /* Journey.m in Sources */,
 				9A2C0196193B8B8B00F72561 /* BoardingCard.m in Sources */,
+				9A2C01A9193BA2FB00F72561 /* WATBoardingCardsViewController.m in Sources */,
+				9A2C01A2193BA2A100F72561 /* WATInstructionsViewController.m in Sources */,
+				9A2C01AC193BA31D00F72561 /* WATPlanViewController.m in Sources */,
 				9A2C019C193B923700F72561 /* BoardingCard+Text.m in Sources */,
 				9A2C0190193B8A5300F72561 /* Journey+Sorting.m in Sources */,
 				9A2C0133193B70AE00F72561 /* WATAppDelegate.m in Sources */,
@@ -525,6 +557,7 @@
 				9A2C0153193B70AE00F72561 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A2C0154193B70AE00F72561 /* Build configuration list for PBXNativeTarget "WorkAngelTestTests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +566,7 @@
 				9A2C0156193B70AE00F72561 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

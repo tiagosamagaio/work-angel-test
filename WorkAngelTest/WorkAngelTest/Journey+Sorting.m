@@ -15,6 +15,7 @@
 - (NSDictionary *)plan
 {
     NSMutableArray *sortedBoardingCards = [NSMutableArray array];
+    NSMutableArray *sortedLocations = [NSMutableArray array];
     NSString *instructions = @"";
     
     Location *origin;
@@ -24,6 +25,7 @@
             origin = location;
             BoardingCard *firstBoardingCard = [location.boardingCards anyObject];
             [sortedBoardingCards addObject:firstBoardingCard];
+            [sortedLocations addObject:origin];
             instructions = [instructions stringByAppendingString:[firstBoardingCard instructionWithOrigin:origin]];
             break;
         }
@@ -38,16 +40,23 @@
             if (nextBoardingCard != boardingCard) {
                 [sortedBoardingCards addObject:nextBoardingCard];
                 origin = destination;
-                instructions = [instructions stringByAppendingString:@"/n/n"];
+                [sortedLocations addObject:origin];
+                instructions = [instructions stringByAppendingString:@"\n\n"];
                 instructions = [instructions stringByAppendingString:[nextBoardingCard instructionWithOrigin:origin]];
                 break;
             }
         }
     }
     
-    instructions = [instructions stringByAppendingString:@"You have arrived at your final destination."];
+    instructions = [instructions stringByAppendingString:@"\n\nYou have arrived at your final destination."];
     
-    return @{@"boardingCards":sortedBoardingCards, @"instructions":instructions};
+    return @{@"boardingCards":sortedBoardingCards, @"instructions":instructions, @"locations":sortedLocations};
+}
+
+- (NSArray *)boardingCardsArray
+{
+    NSSortDescriptor *sortDescriptor = [NSSortDescriptor sortDescriptorWithKey:@"type" ascending:NO];
+    return [self.boardingCards sortedArrayUsingDescriptors:@[sortDescriptor]];
 }
 
 @end

@@ -24,7 +24,10 @@
     
     for (NSDictionary *boardingCardDictionary in [journeyDictionary objectForKey:@"boardingCards"]) {
         BoardingCard *boardingCard = [BoardingCard createBoardingCardFromDictionary:boardingCardDictionary];
-        if (boardingCard) [journey addBoardingCardsObject:boardingCard];
+        if (boardingCard) {
+            [journey addBoardingCardsObject:boardingCard];
+            [journey addLocations:boardingCard.locations];
+        }
     }
     
     return journey;

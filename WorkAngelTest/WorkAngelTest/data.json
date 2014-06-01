@@ -2,24 +2,24 @@
 	"name":"Test Journey",
 	"boardingCards":[
 						{
-							"type":"train",
-							"number":"78A",
+							"type":"bus",
+							"number":"",
 							"locations":[
 											"Madrid",
 											"Barcelona"
 										],
-							"seat":"45B",
-							"gate":,
-							"info":
+							"seat":"",
+							"gate":"",
+							"info":""
 						}, {
-							"type":"airport bus",
-							"number":,
+							"type":"train",
+							"number":"78A",
 							"locations":[
 											"Gerona Airport",
 											"Barcelona"
 										],
-							"seat":,
-							"gate":,
+							"seat":"45B",
+							"gate":"",
 							"info":""
 						}, {
 							"type":"airplane",
