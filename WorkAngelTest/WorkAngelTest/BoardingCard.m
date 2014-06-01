@@ -16,6 +16,7 @@
 @dynamic number;
 @dynamic seat;
 @dynamic info;
+@dynamic gate;
 @dynamic locations;
 
 @end

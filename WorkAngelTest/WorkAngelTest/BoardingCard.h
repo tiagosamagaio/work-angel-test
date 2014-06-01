@@ -17,6 +17,7 @@
 @property (nonatomic, retain) NSString * number;
 @property (nonatomic, retain) NSString * seat;
 @property (nonatomic, retain) NSString * info;
+@property (nonatomic, retain) NSString * gate;
 @property (nonatomic, retain) NSSet *locations;
 @end
 

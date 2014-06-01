@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13D65" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
     <entity name="BoardingCard" representedClassName="BoardingCard" syncable="YES">
+        <attribute name="gate" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="info" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="number" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="seat" optional="YES" attributeType="String" syncable="YES"/>
@@ -13,6 +14,6 @@
     </entity>
     <elements>
         <element name="Location" positionX="-63" positionY="-18" width="128" height="73"/>
-        <element name="BoardingCard" positionX="126" positionY="-36" width="128" height="118"/>
+        <element name="BoardingCard" positionX="126" positionY="-36" width="128" height="133"/>
     </elements>
 </model>

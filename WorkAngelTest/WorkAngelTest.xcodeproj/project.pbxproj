@@ -22,7 +22,9 @@
 		9A2C014E193B70AE00F72561 /* WorkAngelTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C014D193B70AE00F72561 /* WorkAngelTestTests.m */; };
 		9A2C0159193B72BA00F72561 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C0157193B72BA00F72561 /* Model.xcdatamodeld */; };
 		9A2C016F193B7A3900F72561 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C016E193B7A3900F72561 /* Location.m */; };
-		9A2C0172193B7A3900F72561 /* BoardingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C0171193B7A3900F72561 /* BoardingCard.m */; };
+		9A2C0174193B7B1700F72561 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A2C0173193B7B1700F72561 /* CoreData.framework */; };
+		9A2C0179193B7EB900F72561 /* BoardingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C0178193B7EB900F72561 /* BoardingCard.m */; };
+		9A2C017B193B803F00F72561 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 9A2C017A193B803F00F72561 /* data.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,8 +58,10 @@
 		9A2C0158193B72BA00F72561 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		9A2C016D193B7A3900F72561 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
 		9A2C016E193B7A3900F72561 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
-		9A2C0170193B7A3900F72561 /* BoardingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardingCard.h; sourceTree = "<group>"; };
-		9A2C0171193B7A3900F72561 /* BoardingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardingCard.m; sourceTree = "<group>"; };
+		9A2C0173193B7B1700F72561 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9A2C0177193B7EB900F72561 /* BoardingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardingCard.h; sourceTree = "<group>"; };
+		9A2C0178193B7EB900F72561 /* BoardingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardingCard.m; sourceTree = "<group>"; };
+		9A2C017A193B803F00F72561 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A2C0174193B7B1700F72561 /* CoreData.framework in Frameworks */,
 				9A2C0125193B70AE00F72561 /* CoreGraphics.framework in Frameworks */,
 				9A2C0127193B70AE00F72561 /* UIKit.framework in Frameworks */,
 				9A2C0123193B70AE00F72561 /* Foundation.framework in Frameworks */,
@@ -106,6 +111,7 @@
 		9A2C0121193B70AE00F72561 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9A2C0173193B7B1700F72561 /* CoreData.framework */,
 				9A2C0122193B70AE00F72561 /* Foundation.framework */,
 				9A2C0124193B70AE00F72561 /* CoreGraphics.framework */,
 				9A2C0126193B70AE00F72561 /* UIKit.framework */,
@@ -159,9 +165,10 @@
 		9A2C0160193B784300F72561 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9A2C017A193B803F00F72561 /* data.json */,
+				9A2C0177193B7EB900F72561 /* BoardingCard.h */,
+				9A2C0178193B7EB900F72561 /* BoardingCard.m */,
 				9A2C0157193B72BA00F72561 /* Model.xcdatamodeld */,
-				9A2C0170193B7A3900F72561 /* BoardingCard.h */,
-				9A2C0171193B7A3900F72561 /* BoardingCard.m */,
 				9A2C016D193B7A3900F72561 /* Location.h */,
 				9A2C016E193B7A3900F72561 /* Location.m */,
 			);
@@ -248,6 +255,7 @@
 				9A2C013B193B70AE00F72561 /* Images.xcassets in Resources */,
 				9A2C012D193B70AE00F72561 /* InfoPlist.strings in Resources */,
 				9A2C0136193B70AE00F72561 /* Main.storyboard in Resources */,
+				9A2C017B193B803F00F72561 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +277,7 @@
 				9A2C012F193B70AE00F72561 /* main.m in Sources */,
 				9A2C0133193B70AE00F72561 /* WATAppDelegate.m in Sources */,
 				9A2C016F193B7A3900F72561 /* Location.m in Sources */,
-				9A2C0172193B7A3900F72561 /* BoardingCard.m in Sources */,
+				9A2C0179193B7EB900F72561 /* BoardingCard.m in Sources */,
 				9A2C0159193B72BA00F72561 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
