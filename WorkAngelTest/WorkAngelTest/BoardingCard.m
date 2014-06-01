@@ -18,5 +18,6 @@
 @dynamic info;
 @dynamic gate;
 @dynamic locations;
+@dynamic journey;
 
 @end

@@ -1,5 +1,5 @@
 //
-//  Location.m
+//  Location+Create.h
 //  WorkAngelTest
 //
 //  Created by Tiago Silva on 01/06/2014.
@@ -7,12 +7,9 @@
 //
 
 #import "Location.h"
-#import "BoardingCard.h"
 
+@interface Location (Create)
 
-@implementation Location
-
-@dynamic name;
-@dynamic boardingCards;
++ (Location *)locationWithName:(NSString *)name;
 
 @end

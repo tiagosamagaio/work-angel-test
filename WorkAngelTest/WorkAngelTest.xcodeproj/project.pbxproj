@@ -21,10 +21,14 @@
 		9A2C014C193B70AE00F72561 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A2C014A193B70AE00F72561 /* InfoPlist.strings */; };
 		9A2C014E193B70AE00F72561 /* WorkAngelTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C014D193B70AE00F72561 /* WorkAngelTestTests.m */; };
 		9A2C0159193B72BA00F72561 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C0157193B72BA00F72561 /* Model.xcdatamodeld */; };
-		9A2C016F193B7A3900F72561 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C016E193B7A3900F72561 /* Location.m */; };
 		9A2C0174193B7B1700F72561 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A2C0173193B7B1700F72561 /* CoreData.framework */; };
-		9A2C0179193B7EB900F72561 /* BoardingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C0178193B7EB900F72561 /* BoardingCard.m */; };
 		9A2C017B193B803F00F72561 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 9A2C017A193B803F00F72561 /* data.json */; };
+		9A2C017E193B81ED00F72561 /* BoardingCard+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C017D193B81ED00F72561 /* BoardingCard+Create.m */; };
+		9A2C0181193B847700F72561 /* Location+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C0180193B847700F72561 /* Location+Create.m */; };
+		9A2C0184193B871300F72561 /* BoardingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C0183193B871300F72561 /* BoardingCard.m */; };
+		9A2C0187193B871300F72561 /* Journey.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C0186193B871300F72561 /* Journey.m */; };
+		9A2C018A193B871400F72561 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C0189193B871400F72561 /* Location.m */; };
+		9A2C018D193B876500F72561 /* Journey+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C018C193B876500F72561 /* Journey+Create.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,12 +60,20 @@
 		9A2C014B193B70AE00F72561 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9A2C014D193B70AE00F72561 /* WorkAngelTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorkAngelTestTests.m; sourceTree = "<group>"; };
 		9A2C0158193B72BA00F72561 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
-		9A2C016D193B7A3900F72561 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
-		9A2C016E193B7A3900F72561 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
 		9A2C0173193B7B1700F72561 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		9A2C0177193B7EB900F72561 /* BoardingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardingCard.h; sourceTree = "<group>"; };
-		9A2C0178193B7EB900F72561 /* BoardingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardingCard.m; sourceTree = "<group>"; };
 		9A2C017A193B803F00F72561 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		9A2C017C193B81ED00F72561 /* BoardingCard+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BoardingCard+Create.h"; sourceTree = "<group>"; };
+		9A2C017D193B81ED00F72561 /* BoardingCard+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BoardingCard+Create.m"; sourceTree = "<group>"; };
+		9A2C017F193B847700F72561 /* Location+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Location+Create.h"; sourceTree = "<group>"; };
+		9A2C0180193B847700F72561 /* Location+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Location+Create.m"; sourceTree = "<group>"; };
+		9A2C0182193B871300F72561 /* BoardingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardingCard.h; sourceTree = "<group>"; };
+		9A2C0183193B871300F72561 /* BoardingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardingCard.m; sourceTree = "<group>"; };
+		9A2C0185193B871300F72561 /* Journey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Journey.h; sourceTree = "<group>"; };
+		9A2C0186193B871300F72561 /* Journey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Journey.m; sourceTree = "<group>"; };
+		9A2C0188193B871400F72561 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		9A2C0189193B871400F72561 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		9A2C018B193B876500F72561 /* Journey+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Journey+Create.h"; sourceTree = "<group>"; };
+		9A2C018C193B876500F72561 /* Journey+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Journey+Create.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,11 +178,19 @@
 			isa = PBXGroup;
 			children = (
 				9A2C017A193B803F00F72561 /* data.json */,
-				9A2C0177193B7EB900F72561 /* BoardingCard.h */,
-				9A2C0178193B7EB900F72561 /* BoardingCard.m */,
+				9A2C017C193B81ED00F72561 /* BoardingCard+Create.h */,
+				9A2C017D193B81ED00F72561 /* BoardingCard+Create.m */,
 				9A2C0157193B72BA00F72561 /* Model.xcdatamodeld */,
-				9A2C016D193B7A3900F72561 /* Location.h */,
-				9A2C016E193B7A3900F72561 /* Location.m */,
+				9A2C0182193B871300F72561 /* BoardingCard.h */,
+				9A2C0183193B871300F72561 /* BoardingCard.m */,
+				9A2C0188193B871400F72561 /* Location.h */,
+				9A2C0189193B871400F72561 /* Location.m */,
+				9A2C0185193B871300F72561 /* Journey.h */,
+				9A2C0186193B871300F72561 /* Journey.m */,
+				9A2C018B193B876500F72561 /* Journey+Create.h */,
+				9A2C018C193B876500F72561 /* Journey+Create.m */,
+				9A2C017F193B847700F72561 /* Location+Create.h */,
+				9A2C0180193B847700F72561 /* Location+Create.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -274,11 +294,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A2C0187193B871300F72561 /* Journey.m in Sources */,
 				9A2C012F193B70AE00F72561 /* main.m in Sources */,
+				9A2C017E193B81ED00F72561 /* BoardingCard+Create.m in Sources */,
 				9A2C0133193B70AE00F72561 /* WATAppDelegate.m in Sources */,
-				9A2C016F193B7A3900F72561 /* Location.m in Sources */,
-				9A2C0179193B7EB900F72561 /* BoardingCard.m in Sources */,
+				9A2C018D193B876500F72561 /* Journey+Create.m in Sources */,
 				9A2C0159193B72BA00F72561 /* Model.xcdatamodeld in Sources */,
+				9A2C0184193B871300F72561 /* BoardingCard.m in Sources */,
+				9A2C018A193B871400F72561 /* Location.m in Sources */,
+				9A2C0181193B847700F72561 /* Location+Create.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

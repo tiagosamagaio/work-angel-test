@@ -1,43 +1,46 @@
-[
-	{
-		"type":"train",
-		"number":"78A",
-		"locations":[
-						"Madrid",
-						"Barcelona"
-					],
-		"seat":"45B",
-		"gate":,
-		"info":
-	}, {
-		"type":"airport bus",
-		"number":,
-		"locations":[
-						"Gerona Airport",
-						"Barcelona"
-					],
-		"seat":,
-		"gate":,
-		"info":""
-	}, {
-		"type":"airplane",
-		"number":"SK455",
-		"locations":[
-						"Gerona Airport",
-						"London"
-					],
-		"seat":"3A",
-		"gate":"45B",
-		"info":"Baggage drop at ticket counter 344."
-	}, {
-		"type":"airplane",
-		"number":"SK22",
-		"locations":[
-						"London",
-						"New York JFK"
-					],
-		"seat":"7B",
-		"gate":"22",
-		"info":"Baggage will be automatically transferred from your last leg."
-	}
-]
+{
+	"name":"Test Journey",
+	"boardingCards":[
+						{
+							"type":"train",
+							"number":"78A",
+							"locations":[
+											"Madrid",
+											"Barcelona"
+										],
+							"seat":"45B",
+							"gate":,
+							"info":
+						}, {
+							"type":"airport bus",
+							"number":,
+							"locations":[
+											"Gerona Airport",
+											"Barcelona"
+										],
+							"seat":,
+							"gate":,
+							"info":""
+						}, {
+							"type":"airplane",
+							"number":"SK455",
+							"locations":[
+											"Gerona Airport",
+											"London"
+										],
+							"seat":"3A",
+							"gate":"45B",
+							"info":"Baggage drop at ticket counter 344."
+						}, {
+							"type":"airplane",
+							"number":"SK22",
+							"locations":[
+											"London",
+											"New York JFK"
+										],
+							"seat":"7B",
+							"gate":"22",
+							"info":"Baggage will be automatically transferred from your last leg."
+						}
+					]
+}

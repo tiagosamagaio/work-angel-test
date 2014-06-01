@@ -1,5 +1,5 @@
 //
-//  Location.h
+//  Journey.h
 //  WorkAngelTest
 //
 //  Created by Tiago Silva on 01/06/2014.
@@ -11,13 +11,13 @@
 
 @class BoardingCard;
 
-@interface Location : NSManagedObject
+@interface Journey : NSManagedObject
 
 @property (nonatomic, retain) NSString * name;
 @property (nonatomic, retain) NSSet *boardingCards;
 @end
 
-@interface Location (CoreDataGeneratedAccessors)
+@interface Journey (CoreDataGeneratedAccessors)
 
 - (void)addBoardingCardsObject:(BoardingCard *)value;
 - (void)removeBoardingCardsObject:(BoardingCard *)value;

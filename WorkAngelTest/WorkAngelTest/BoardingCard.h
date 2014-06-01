@@ -19,6 +19,7 @@
 @property (nonatomic, retain) NSString * info;
 @property (nonatomic, retain) NSString * gate;
 @property (nonatomic, retain) NSSet *locations;
+@property (nonatomic, retain) NSManagedObject *journey;
 @end
 
 @interface BoardingCard (CoreDataGeneratedAccessors)
