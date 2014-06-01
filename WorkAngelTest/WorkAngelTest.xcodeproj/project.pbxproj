@@ -14,7 +14,6 @@
 		9A2C012F193B70AE00F72561 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C012E193B70AE00F72561 /* main.m */; };
 		9A2C0133193B70AE00F72561 /* WATAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C0132193B70AE00F72561 /* WATAppDelegate.m */; };
 		9A2C0136193B70AE00F72561 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A2C0134193B70AE00F72561 /* Main.storyboard */; };
-		9A2C0139193B70AE00F72561 /* WATViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C0138193B70AE00F72561 /* WATViewController.m */; };
 		9A2C013B193B70AE00F72561 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A2C013A193B70AE00F72561 /* Images.xcassets */; };
 		9A2C0142193B70AE00F72561 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A2C0141193B70AE00F72561 /* XCTest.framework */; };
 		9A2C0143193B70AE00F72561 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A2C0122193B70AE00F72561 /* Foundation.framework */; };
@@ -45,8 +44,6 @@
 		9A2C0131193B70AE00F72561 /* WATAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WATAppDelegate.h; sourceTree = "<group>"; };
 		9A2C0132193B70AE00F72561 /* WATAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WATAppDelegate.m; sourceTree = "<group>"; };
 		9A2C0135193B70AE00F72561 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9A2C0137193B70AE00F72561 /* WATViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WATViewController.h; sourceTree = "<group>"; };
-		9A2C0138193B70AE00F72561 /* WATViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WATViewController.m; sourceTree = "<group>"; };
 		9A2C013A193B70AE00F72561 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9A2C0140193B70AE00F72561 /* WorkAngelTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkAngelTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A2C0141193B70AE00F72561 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -115,8 +112,6 @@
 				9A2C0131193B70AE00F72561 /* WATAppDelegate.h */,
 				9A2C0132193B70AE00F72561 /* WATAppDelegate.m */,
 				9A2C0134193B70AE00F72561 /* Main.storyboard */,
-				9A2C0137193B70AE00F72561 /* WATViewController.h */,
-				9A2C0138193B70AE00F72561 /* WATViewController.m */,
 				9A2C013A193B70AE00F72561 /* Images.xcassets */,
 				9A2C0129193B70AE00F72561 /* Supporting Files */,
 			);
@@ -250,7 +245,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A2C0139193B70AE00F72561 /* WATViewController.m in Sources */,
 				9A2C012F193B70AE00F72561 /* main.m in Sources */,
 				9A2C0133193B70AE00F72561 /* WATAppDelegate.m in Sources */,
 			);
