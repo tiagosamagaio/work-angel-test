@@ -7,7 +7,7 @@
 //
 
 #import "Location.h"
-#import "Transport.h"
+#import "BoardingCard.h"
 
 
 @implementation Location

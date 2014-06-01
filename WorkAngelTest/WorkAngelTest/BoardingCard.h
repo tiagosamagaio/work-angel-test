@@ -1,5 +1,5 @@
 //
-//  Transport.h
+//  BoardingCard.h
 //  WorkAngelTest
 //
 //  Created by Tiago Silva on 01/06/2014.
@@ -11,7 +11,7 @@
 
 @class Location;
 
-@interface Transport : NSManagedObject
+@interface BoardingCard : NSManagedObject
 
 @property (nonatomic, retain) NSString * type;
 @property (nonatomic, retain) NSString * number;
@@ -20,7 +20,7 @@
 @property (nonatomic, retain) NSSet *locations;
 @end
 
-@interface Transport (CoreDataGeneratedAccessors)
+@interface BoardingCard (CoreDataGeneratedAccessors)
 
 - (void)addLocationsObject:(Location *)value;
 - (void)removeLocationsObject:(Location *)value;

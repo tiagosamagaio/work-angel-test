@@ -21,8 +21,8 @@
 		9A2C014C193B70AE00F72561 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A2C014A193B70AE00F72561 /* InfoPlist.strings */; };
 		9A2C014E193B70AE00F72561 /* WorkAngelTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C014D193B70AE00F72561 /* WorkAngelTestTests.m */; };
 		9A2C0159193B72BA00F72561 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C0157193B72BA00F72561 /* Model.xcdatamodeld */; };
-		9A2C0163193B787500F72561 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C0162193B787500F72561 /* Location.m */; };
-		9A2C0166193B787600F72561 /* Transport.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C0165193B787600F72561 /* Transport.m */; };
+		9A2C016F193B7A3900F72561 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C016E193B7A3900F72561 /* Location.m */; };
+		9A2C0172193B7A3900F72561 /* BoardingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C0171193B7A3900F72561 /* BoardingCard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,10 +54,10 @@
 		9A2C014B193B70AE00F72561 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9A2C014D193B70AE00F72561 /* WorkAngelTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorkAngelTestTests.m; sourceTree = "<group>"; };
 		9A2C0158193B72BA00F72561 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
-		9A2C0161193B787500F72561 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
-		9A2C0162193B787500F72561 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
-		9A2C0164193B787600F72561 /* Transport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transport.h; sourceTree = "<group>"; };
-		9A2C0165193B787600F72561 /* Transport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transport.m; sourceTree = "<group>"; };
+		9A2C016D193B7A3900F72561 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		9A2C016E193B7A3900F72561 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		9A2C0170193B7A3900F72561 /* BoardingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardingCard.h; sourceTree = "<group>"; };
+		9A2C0171193B7A3900F72561 /* BoardingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardingCard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,10 +160,10 @@
 			isa = PBXGroup;
 			children = (
 				9A2C0157193B72BA00F72561 /* Model.xcdatamodeld */,
-				9A2C0161193B787500F72561 /* Location.h */,
-				9A2C0162193B787500F72561 /* Location.m */,
-				9A2C0164193B787600F72561 /* Transport.h */,
-				9A2C0165193B787600F72561 /* Transport.m */,
+				9A2C0170193B7A3900F72561 /* BoardingCard.h */,
+				9A2C0171193B7A3900F72561 /* BoardingCard.m */,
+				9A2C016D193B7A3900F72561 /* Location.h */,
+				9A2C016E193B7A3900F72561 /* Location.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -267,10 +267,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A2C012F193B70AE00F72561 /* main.m in Sources */,
-				9A2C0163193B787500F72561 /* Location.m in Sources */,
 				9A2C0133193B70AE00F72561 /* WATAppDelegate.m in Sources */,
+				9A2C016F193B7A3900F72561 /* Location.m in Sources */,
+				9A2C0172193B7A3900F72561 /* BoardingCard.m in Sources */,
 				9A2C0159193B72BA00F72561 /* Model.xcdatamodeld in Sources */,
-				9A2C0166193B787600F72561 /* Transport.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

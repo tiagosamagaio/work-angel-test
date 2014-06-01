@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
 
-@class Transport;
+@class BoardingCard;
 
 @interface Location : NSManagedObject
 
@@ -19,8 +19,8 @@
 
 @interface Location (CoreDataGeneratedAccessors)
 
-- (void)addTransportsObject:(Transport *)value;
-- (void)removeTransportsObject:(Transport *)value;
+- (void)addTransportsObject:(BoardingCard *)value;
+- (void)removeTransportsObject:(BoardingCard *)value;
 - (void)addTransports:(NSSet *)values;
 - (void)removeTransports:(NSSet *)values;
 
